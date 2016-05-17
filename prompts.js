@@ -25,7 +25,6 @@ arr = [1,2,3,4,5,6,7];
 // What is anotherArray?
 //console.log(anotherArray)
 
-// Why is the function below considered impure?
 var addOne = function(numOrArray) {
   if(Array.isArray(numOrArray)) {
     numOrArray.push(1);
@@ -43,5 +42,3 @@ addOne(array);
 
 //console.log(num);
 //console.log(array);
-
-//How do we make changes to an array without mutating it? Can you refactor addOne to make it a pure function?
